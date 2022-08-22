@@ -2,10 +2,6 @@ from pathlib import Path
 import os.path
 import csv
 
-
-from matplotlib.pyplot import text
-
-
 class BlockSpamBots:
 
     def __init__ (self, name, email, text):
